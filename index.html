@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!-- Anger att dokumentet använder HTML5 -->
+<html lang="sv"> <!-- Startar HTML och anger svenska som språk -->
+<head> <!-- Börjar sidans inställningar -->
+    <meta charset="UTF-8"> <!-- Gör så att svenska bokstäver fungerar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Anpassar sidan till mobil och dator -->
+    <title>Marabou Daim Cookie Clicker</title> <!-- Anger sidans titel -->
+    <link rel="stylesheet" href="style.css"> <!-- Kopplar CSS-filen till HTML -->
+    <script src="script.js" defer></script> <!-- Kopplar JavaScript-filen och väntar tills HTML har laddats -->
+</head> <!-- Avslutar sidans inställningar -->
+<body> <!-- Börjar sidans synliga innehåll -->
+    <h1>Marabou Daim Cookie Clicker</h1> <!-- Visar spelets huvudrubrik -->
+    <div id="game"> <!-- Skapar huvudcontainern för spelet -->
+        <div id="stats"> <!-- Skapar området för spelets statistik -->
+            <p>Poäng: <span id="score">0</span></p> <!-- Visar spelarens poäng, börjar på 0 -->
+            <p>Poäng per click: <span id="points-per-click">1</span></p> <!-- Visar poäng per klick, börjar på 1 -->
+        </div> <!-- Avslutar statistikområdet -->
+        <button id="click-target">Tryck här, annars är du blind!</button> <!-- Skapar den klickbara knappen -->
+        <div id="message-area"></div> <!-- Skapar området där klickmeddelanden visas -->
+    </div> <!-- Avslutar spelets huvudcontainer -->
+</body> <!-- Avslutar sidans innehåll -->
+</html> <!-- Avslutar HTML-dokumentet -->
